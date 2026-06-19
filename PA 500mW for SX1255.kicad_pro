@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.25,
-          "height": 0.35,
-          "width": 0.35
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -667,7 +667,7 @@
   "sheets": [
     [
       "9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a",
-      "PA-2W for -HS- with PA"
+      "PA 500mW for SX1255"
     ]
   ],
   "text_variables": {},

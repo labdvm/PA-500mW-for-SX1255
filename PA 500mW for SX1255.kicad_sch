@@ -1771,237 +1771,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RF_Filter:LFCN-490"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FL"
-				(at 0 10.795 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LFCN-490"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
-				(at 0 12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-490+.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "490MHz 50 Ohm Passive Low Pass Filter, FV1206"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Mini-Circuits low pass filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Filter*Mini?Circuits*FV1206*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LFCN-490_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -3.81 2.54)
-					(mid -1.905 3.5595)
-					(end 0 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.81 -1.27)
-					(mid -1.905 -0.2505)
-					(end 0 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy 1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 2.54)
-					(mid 1.905 1.5205)
-					(end 0 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.81 -1.27)
-					(mid 1.905 -2.2895)
-					(end 0 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LFCN-490_1_1"
-				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "TQP7M9106_1"
 			(pin_names
 				(offset 1.016)
@@ -2921,6 +2690,12 @@
 		(uuid "8ea50c3c-de16-476e-8cb8-ee7a00891c5a")
 	)
 	(junction
+		(at 213.36 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9150141e-4623-472c-b2aa-01b2102ea24e")
+	)
+	(junction
 		(at 198.12 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2931,12 +2706,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c4d8ea6-d5c3-492e-9bbe-781e2e5b3f53")
-	)
-	(junction
-		(at 213.36 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab0a4f19-4cc6-470d-9a4f-b50e765176c2")
 	)
 	(junction
 		(at 140.97 115.57)
@@ -3036,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 114.3) (xy 229.87 114.3)
+			(xy 227.33 114.3) (xy 231.14 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3025,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 114.3) (xy 219.71 114.3)
+			(xy 213.36 114.3) (xy 222.25 114.3)
 		)
 		(stroke
 			(width 0)
@@ -3303,16 +3072,6 @@
 			(type default)
 		)
 		(uuid "7b22ce57-a6a9-4164-8cd9-a069e5d30a53")
-	)
-	(wire
-		(pts
-			(xy 250.19 114.3) (xy 255.27 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be83f6a-99d6-481c-9d20-762e1548b367")
 	)
 	(wire
 		(pts
@@ -3396,7 +3155,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 119.38) (xy 260.35 123.19)
+			(xy 236.22 119.38) (xy 236.22 123.19)
 		)
 		(stroke
 			(width 0)
@@ -3626,16 +3385,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 124.46) (xy 240.03 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7eef6e-2e8c-40cd-bacb-ccafab60c12d")
-	)
-	(wire
-		(pts
 			(xy 113.03 73.66) (xy 113.03 77.47)
 		)
 		(stroke
@@ -3794,87 +3543,9 @@
 			(uuid "7c1c7c67-3792-4af5-9f0a-424051d3f405")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_4ms_Power-symbol:GND")
-		(at 240.03 128.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "05e80ce3-ee1b-4615-926b-e2849169024f")
-		(property "Reference" "#PWR013"
-			(at 240.03 134.62 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 133.35 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 128.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3716c2dc-bd16-4caa-8fc4-b4b8295a429f")
-		)
-		(instances
-			(project "PA-2W for -HS- with PA"
-				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
-					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3951,7 +3622,7 @@
 			(uuid "fdec465b-5a08-4129-9d76-05b8983e8652")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR05")
 					(unit 1)
@@ -4029,7 +3700,7 @@
 			(uuid "f29c59c5-3119-47ac-b80a-5db7673427b3")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR02")
 					(unit 1)
@@ -4108,7 +3779,7 @@
 			(uuid "ce8b2499-5c8f-45f4-85c4-6d66a7154840")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR011")
 					(unit 1)
@@ -4187,7 +3858,7 @@
 			(uuid "e7c9c608-36a6-4417-8c6b-ec45ca620b37")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR07")
 					(unit 1)
@@ -4302,7 +3973,7 @@
 			(uuid "ac2f9a0d-63a6-4b46-91f1-90c4a2520587")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "R4")
 					(unit 1)
@@ -4378,7 +4049,7 @@
 			)
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "H1")
 					(unit 1)
@@ -4493,7 +4164,7 @@
 			(uuid "5c575537-1d1d-40b0-a31d-f35166d27876")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "R3")
 					(unit 1)
@@ -4619,7 +4290,7 @@
 			(uuid "bd9ce385-cad7-4cc6-9bb5-211428026ae7")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "L3")
 					(unit 1)
@@ -4697,7 +4368,7 @@
 			(uuid "95dcf8d7-0bac-4f3c-bc79-47cab8500770")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR016")
 					(unit 1)
@@ -4775,7 +4446,7 @@
 			(uuid "48904e97-cc72-434e-b1c1-e64c841e9ea6")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR08")
 					(unit 1)
@@ -4853,7 +4524,7 @@
 			(uuid "42855ff7-a872-492e-b6f9-6c50e71d27a9")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR012")
 					(unit 1)
@@ -4863,7 +4534,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 222.25 114.3 90)
+		(at 224.79 114.3 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4873,7 +4544,7 @@
 		(dnp no)
 		(uuid "4538947b-72b9-4c34-bbc2-b5309902b6ac")
 		(property "Reference" "C12"
-			(at 222.25 119.634 90)
+			(at 224.79 119.634 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4883,7 +4554,7 @@
 			)
 		)
 		(property "Value" "22p"
-			(at 222.25 117.348 90)
+			(at 224.79 117.348 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4893,7 +4564,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 222.25 114.3 0)
+			(at 224.79 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +4575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 114.3 0)
+			(at 224.79 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4915,7 +4586,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 222.25 114.3 0)
+			(at 224.79 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +4597,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 222.25 114.3 90)
+			(at 224.79 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4937,7 +4608,7 @@
 			)
 		)
 		(property "Manufacturer Product Number" "CC0603FRNPO9BN220"
-			(at 222.25 114.3 90)
+			(at 224.79 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4948,7 +4619,7 @@
 			)
 		)
 		(property "DigiKey Part Number" "311-3350-1-ND"
-			(at 222.25 114.3 90)
+			(at 224.79 114.3 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4965,7 +4636,7 @@
 			(uuid "179e63a7-9d87-46c6-ad7a-41e14c3a5f5d")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C12")
 					(unit 1)
@@ -5041,7 +4712,7 @@
 			)
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "H2")
 					(unit 1)
@@ -5154,7 +4825,7 @@
 			(uuid "dda398d1-c4ad-4977-8adc-859aebdef62a")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "R1")
 					(unit 1)
@@ -5267,7 +4938,7 @@
 			(uuid "464b2e5d-ee78-413c-8762-9968a9ba8cce")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "L4")
 					(unit 1)
@@ -5382,7 +5053,7 @@
 			(uuid "5f05eb37-7216-4876-ba82-77bf0a69b539")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C18")
 					(unit 1)
@@ -5569,7 +5240,7 @@
 			(uuid "8ff33376-7d69-421e-a45a-c386503d1bc3")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "U2")
 					(unit 1)
@@ -5681,7 +5352,7 @@
 			(uuid "8cdbc8be-b1f1-46d0-b789-d3e96435c3fa")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C11")
 					(unit 1)
@@ -5691,7 +5362,7 @@
 	)
 	(symbol
 		(lib_id "PCM_SparkFun-RF:SMA_EdgeMount_6.3mm")
-		(at 260.35 114.3 0)
+		(at 236.22 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5701,7 +5372,7 @@
 		(dnp no)
 		(uuid "64559dbc-305f-40b6-a4c8-6503fe428076")
 		(property "Reference" "J2"
-			(at 264.16 115.8633 0)
+			(at 240.03 115.8633 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5712,7 +5383,7 @@
 			)
 		)
 		(property "Value" "RF-out"
-			(at 264.16 113.3233 0)
+			(at 240.03 113.3233 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5723,7 +5394,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
-			(at 260.35 124.46 0)
+			(at 236.22 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5734,7 +5405,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn.sparkfun.com/assets/4/1/2/2/0/SMA-Connector.pdf"
-			(at 260.35 127 0)
+			(at 236.22 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5745,7 +5416,7 @@
 			)
 		)
 		(property "Description" "Not for new designs. Use 8mm variant. SMA PCB Edge Mount connector"
-			(at 260.35 129.54 0)
+			(at 236.22 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5756,7 +5427,7 @@
 			)
 		)
 		(property "PROD_ID" "CONN-08289"
-			(at 260.35 121.92 0)
+			(at 236.22 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5773,128 +5444,9 @@
 			(uuid "087eecab-a552-47d1-bdd3-cc9bb69df6d2")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RF_Filter:LFCN-490")
-		(at 240.03 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "675884a6-c2e2-4098-b1da-edd008bcb499")
-		(property "Reference" "FL1"
-			(at 240.03 101.6 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LFCN-490"
-			(at 240.03 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Filter:Filter_Mini-Circuits_FV1206"
-			(at 240.03 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.minicircuits.com/pdfs/LFCN-490+.pdf"
-			(at 240.03 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "490MHz 50 Ohm Passive Low Pass Filter, FV1206"
-			(at 240.03 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Mini-Circuits"
-			(at 240.03 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Product Number" "LFCN-490+"
-			(at 240.03 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "DigiKey Part Number" "3157-LFCN-490+CT-ND"
-			(at 240.03 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5f11f422-f5c8-4307-a399-cf76ff830a2b")
-		)
-		(pin "2"
-			(uuid "09a5f24a-ed02-490b-b761-6dab6eaf26b3")
-		)
-		(pin "4"
-			(uuid "6fa05670-ff6f-4824-9ebc-37ee193468fd")
-		)
-		(pin "3"
-			(uuid "a9ab58c4-abd0-4e2c-898f-f506551bed3f")
-		)
-		(instances
-			(project "PA-2W for -HS- with PA"
-				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
-					(reference "FL1")
 					(unit 1)
 				)
 			)
@@ -6005,7 +5557,7 @@
 			(uuid "cf46d94b-d39c-4c5c-a44d-519893cf7969")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C17")
 					(unit 1)
@@ -6083,7 +5635,7 @@
 			(uuid "1d2652ee-4b0c-4555-93af-9cc568102071")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR06")
 					(unit 1)
@@ -6195,7 +5747,7 @@
 			(uuid "73ba5542-a6ac-4877-888e-d91737e20523")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C6")
 					(unit 1)
@@ -6307,7 +5859,7 @@
 			(uuid "cc7210b8-a4f3-4d6c-8450-aab5452e0d42")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C13")
 					(unit 1)
@@ -6420,7 +5972,7 @@
 			(uuid "1dc2c4be-b6ba-42fa-a362-f47dada3fde7")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C8")
 					(unit 1)
@@ -6533,7 +6085,7 @@
 			(uuid "1d570c8b-af51-4e46-ae13-d5b88de33d33")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "R2")
 					(unit 1)
@@ -6611,7 +6163,7 @@
 			(uuid "238ca490-6afd-47c6-b696-9ee58bb23265")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR015")
 					(unit 1)
@@ -6723,7 +6275,7 @@
 			(uuid "a19012db-5d0c-4ee8-a992-9f5ff1a9049d")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C10")
 					(unit 1)
@@ -6799,7 +6351,7 @@
 			)
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "H4")
 					(unit 1)
@@ -6912,7 +6464,7 @@
 			(uuid "fb56e154-60d2-48bc-a00f-cc8f203fea18")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C5")
 					(unit 1)
@@ -6991,7 +6543,7 @@
 			(uuid "2fdc5096-ef84-42ad-881c-4d30b2406df8")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR010")
 					(unit 1)
@@ -7104,7 +6656,7 @@
 			(uuid "cd3fa44a-7f82-4c9e-975a-92371a1963c6")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C16")
 					(unit 1)
@@ -7182,7 +6734,7 @@
 			(uuid "4df0ae18-1e58-455c-987b-b7b8cb489782")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR017")
 					(unit 1)
@@ -7295,7 +6847,7 @@
 			(uuid "995f162a-229d-411d-9499-d1e910d6c124")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C9")
 					(unit 1)
@@ -7408,7 +6960,7 @@
 			(uuid "0302041b-8d42-4549-8b6b-37763f55a77d")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C4")
 					(unit 1)
@@ -7521,7 +7073,7 @@
 			(uuid "5d6c053d-afd4-4059-9de1-309b7d153967")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C14")
 					(unit 1)
@@ -7614,7 +7166,7 @@
 			(uuid "c3bce361-befb-4996-a0ea-3a425061e4ba")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "J1")
 					(unit 1)
@@ -7690,7 +7242,7 @@
 			)
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "H3")
 					(unit 1)
@@ -7768,7 +7320,7 @@
 			(uuid "e83dfb94-bc55-4acc-82e6-8fe20d628401")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR014")
 					(unit 1)
@@ -7905,7 +7457,7 @@
 			(uuid "84d6d26c-042b-4230-a48b-4a9a09a3fb77")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "L2")
 					(unit 1)
@@ -8018,7 +7570,7 @@
 			(uuid "1c105682-3e41-4c1d-a2a9-f13fae00dbf3")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "J3")
 					(unit 1)
@@ -8130,7 +7682,7 @@
 			(uuid "e8bec72e-b7c8-4902-8d6d-c12a44acd587")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C7")
 					(unit 1)
@@ -8253,7 +7805,7 @@
 			(uuid "7341aced-751e-44d6-856f-ffcad58ef38e")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "L5")
 					(unit 1)
@@ -8329,7 +7881,7 @@
 			)
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "H6")
 					(unit 1)
@@ -8405,7 +7957,7 @@
 			)
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "H5")
 					(unit 1)
@@ -8415,7 +7967,7 @@
 	)
 	(symbol
 		(lib_id "PCM_4ms_Power-symbol:GND")
-		(at 260.35 123.19 0)
+		(at 236.22 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8426,7 +7978,7 @@
 		(fields_autoplaced yes)
 		(uuid "f5c62360-7cf0-46cc-acab-cf7d0de9cf1f")
 		(property "Reference" "#PWR04"
-			(at 260.35 129.54 0)
+			(at 236.22 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8437,7 +7989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 260.35 128.27 0)
+			(at 236.22 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8447,7 +7999,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 260.35 123.19 0)
+			(at 236.22 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8458,7 +8010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 260.35 123.19 0)
+			(at 236.22 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8469,7 +8021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 260.35 123.19 0)
+			(at 236.22 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8483,7 +8035,7 @@
 			(uuid "131eaa80-5429-4eda-a744-27aac4bc5c4a")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR04")
 					(unit 1)
@@ -8561,7 +8113,7 @@
 			(uuid "271eed87-74c4-47fd-b469-4e07bde7f05d")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "#PWR03")
 					(unit 1)
@@ -8673,7 +8225,7 @@
 			(uuid "b36d387e-602d-489c-ac89-93d7d9d911e4")
 		)
 		(instances
-			(project "PA-2W for -HS- with PA"
+			(project "PA 500mW for SX1255"
 				(path "/9e841ece-bd19-4cb2-9a9c-7f7db9f00b2a"
 					(reference "C15")
 					(unit 1)
