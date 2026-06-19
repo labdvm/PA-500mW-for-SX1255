@@ -1,0 +1,2 @@
+# PA-500mW-for-SX1255
+500mW PA for SX1255 with TQP7M9106
