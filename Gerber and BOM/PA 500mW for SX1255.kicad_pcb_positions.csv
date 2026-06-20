@@ -1,0 +1,28 @@
+﻿pos_x,pos_y,rotation,side,designator,mpn,pack,footprint,value,mount_type
+143.99632,-109.645511,-90.0,top,C10,,,C_0603_1608Metric,8p2,smt
+151.5,-109.661331,90.0,top,C11,,,C_0603_1608Metric,6p8,smt
+157.25,-108.890483,0.0,top,C12,,,C_0603_1608Metric,22p,smt
+143.0,-102.25,0.0,top,C13,,,C_0603_1608Metric,1n,smt
+143.0,-98.25,180.0,top,C14,,,C_0603_1608Metric,100p,smt
+143.0,-96.5,0.0,top,C15,,,C_0603_1608Metric,1n,smt
+143.75,-93.0,0.0,top,C16,,,CP_EIA-3528-15_AVX-H_HandSolder,22u,smt
+122.5,-94.25,90.0,top,C17,,,C_0805_2012Metric,22p,smt
+113.39218,-98.924725,0.0,top,C18,,,CP_EIA-3528-15_AVX-H_HandSolder,47u,smt
+112.456676,-109.110926,180.0,top,C4,,,C_0603_1608Metric,100p,smt
+117.997662,-109.862601,180.0,top,C5,,,C_0603_1608Metric,100p,smt
+122.25,-110.0,-90.0,top,C6,,,C_0603_1608Metric,8p2,smt
+130.75,-110.0,-90.0,top,C7,,,C_0603_1608Metric,15p,smt
+139.5,-100.25,0.0,top,C8,,,C_0603_1608Metric,100p,smt
+131.5,-103.75,0.0,top,C9,,,C_0603_1608Metric,100p,smt
+106.5,-109.096906,180.0,top,J1,,,SMA_Amphenol_132289_EdgeMount,RF-in,smt
+162.75,-108.877483,0.0,top,J2,,,SMA_Amphenol_132289_EdgeMount,RF-out,smt
+111.75,-92.75,180.0,top,J3,,,TerminalBlock_bornier-2_P5.08mm,5Vcc input,tht
+138.75,-103.0,-90.0,top,L2,,,L_0603_1608Metric,68n,smt
+141.862306,-105.525331,-90.0,top,L3,,,L_1008_2520Metric,18n,smt
+146.25,-108.853016,0.0,top,L4,,,L_0603_1608Metric,4n7,smt
+118.5,-93.0,0.0,top,L5,,,L_1206_3216Metric,120 ohm/100MHz,smt
+117.997662,-108.387601,0.0,top,R1,,,R_0603_1608Metric,51R,smt
+125.471853,-109.139073,0.0,top,R2,,,R_0603_1608Metric,4R3,smt
+138.75,-96.75,-90.0,top,R3,,,R_0603_1608Metric,280R,smt
+130.75,-96.75,-90.0,top,R4,,,R_0603_1608Metric,280R,smt
+134.925,-108.615,0.0,top,U2,,,QFN50P400X400X90-25N,TQP7M9106,smt
