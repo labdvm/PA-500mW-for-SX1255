@@ -7,3 +7,6 @@
 - The capacitors from the 100pF and below must be with 1% tolerance or better.
 
 Z32IT
+
+You can order from here:
+<a href="https://www.pcbway.com/project/shareproject/500mW_PA_for_SX1255_boards_070e1752.html"><img src="https://www.pcbway.com/project/img/images/frompcbway-1220.png" alt="PCB from PCBWay" /></a>
