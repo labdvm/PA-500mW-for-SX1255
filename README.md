@@ -1,7 +1,7 @@
 # PA-500mW-for-SX1255
 500mW PA for SX1255 with TQP7M9106
 
-# This PA you can use with SX1255 boards only without other PA's in the middle !
+# This PA you can use with SX1255 boards only without other PA's in the middle, dedicated for SXCEIVER and any other SX1255 boards without PA on it !!!
 - This PA should be amplify ~400 mW clean Tetra signal.
 # Board thickness is 0.8mm
 - The L2,L3,L4 must be "wirewound" for better Q factor.
